@@ -8,13 +8,10 @@ Dieses Repository enthält Blanko-Notebooks für das physikalische Nebenfachprak
 .
 ├── Dockerfile          # Laufzeitumgebung (Basis-Image + zusätzliche Pakete)
 ├── requirements.txt    # Python-Abhängigkeiten (pip)
-├── notebooks/
-│   ├── index.ipynb          # Startseite, wird beim Login zuerst geöffnet
-│   ├── 00_umgebungstest.ipynb
-│   └── NN_versuchsname.ipynb # ein Notebook pro Versuch, siehe notebooks/README.md
-├── beispieldaten/       # gemeinsame, unkritische Beispieldatensätze
-└── tests/
-    └── test_notebooks.sh # führt alle Notebooks headless aus (Rauchtest)
+└── notebooks/
+    ├── index.ipynb          # Startseite, wird beim Login zuerst geöffnet
+    ├── 00_umgebungstest.ipynb
+    └── NN_versuchsname.ipynb # ein Notebook pro Versuch, siehe notebooks/README.md
 ```
 
 ## Enthaltene Pakete
@@ -43,12 +40,6 @@ docker run -it --rm -p 8888:8888 nebenfachpraktikum:test
 docker build --build-arg BASE_IMAGE=quay.io/jupyter/scipy-notebook:python-3.12 \
               -t nebenfachpraktikum:test .
 docker run -it --rm -p 8888:8888 nebenfachpraktikum:test
-```
-
-**Notebooks headless testen** (prüft, dass alle Notebooks ohne Fehler durchlaufen):
-
-```bash
-bash tests/test_notebooks.sh
 ```
 
 ## RWTHjupyter-Profil

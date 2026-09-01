@@ -16,3 +16,7 @@ __pycache__/
 # für git.rwth-aachen.de/jupyter/profiles - gehört NICHT in dieses öffentliche
 # Notebook-Repo, da es u.a. Kontaktdaten/interne Planungsangaben enthält).
 profile-request-issue.md
+
+# Arbeits-Checkliste für den Profilantrag - keine öffentlichen Inhalte,
+# wird nach Abschluss gelöscht.
+TODO.md
