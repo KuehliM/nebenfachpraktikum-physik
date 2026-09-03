@@ -1,6 +1,6 @@
 # Nebenfachpraktikum Physik – Jupyter-Profil
 
-Dieses Repository enthält Blanko-Notebooks für das physikalische Nebenfachpraktikum und wird als **RWTHjupyter-Profil** bereitgestellt: Studierende gelangen über einen Permalink direkt in ein vorkonfiguriertes JupyterLab, in das dieses Repository automatisch eingebunden wird ([nbgitpuller](https://github.com/jupyterhub/nbgitpuller)).
+Dieses Repository enthält Auswertungsnotebooks zu den Versuchen des physikalischen Nebenfachpraktikums und wird als **RWTHjupyter-Profil** bereitgestellt: Studierende gelangen über einen Permalink direkt in ein vorkonfiguriertes JupyterLab, in das dieses Repository automatisch eingebunden wird ([nbgitpuller](https://github.com/jupyterhub/nbgitpuller)).
 
 ## Struktur
 

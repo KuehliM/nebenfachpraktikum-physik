@@ -7,5 +7,5 @@
 
 ## Hinweise
 
-- Notebooks werden den Studierenden per `nbgitpuller` bereitgestellt und sollten daher als **Blanko-Vorlagen** angelegt sein (keine Musterlösungen, keine echten/personenbezogenen Messdaten von Studierenden).
+- Notebooks werden den Studierenden per `nbgitpuller` bereitgestellt und sollten daher noch keine ausgefüllten Lösungen enthalten (keine Musterlösungen, keine echten/personenbezogenen Messdaten von Studierenden).
 - Das Repository ist öffentlich einsehbar — auch für Nicht-RWTH-Angehörige. Keine internen/vertraulichen Inhalte hier ablegen.
