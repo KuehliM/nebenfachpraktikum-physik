@@ -1,6 +1,6 @@
 # Nebenfachpraktikum Physik – Jupyter-Profil
 
-Auswertungsnotebooks zu den Versuchen des physikalischen Nebenfachpraktikums.
+Auswertungsnotebooks zu den Versuchen des physikalischen Nebenfachpraktikums. Ein Notebook pro Versuch, benannt nach dem Versuchskürzel (`VIS.ipynb`, `PEN.ipynb`, …). Öffentliches Repo, per `nbgitpuller` an alle Studierenden verteilt — keine Musterlösungen oder personenbezogenen Messdaten hier ablegen.
 
 ## Lokaler Test
 
