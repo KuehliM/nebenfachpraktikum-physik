@@ -11,12 +11,3 @@ __pycache__/
 
 # Lokale Build-Artefakte
 *.log
-
-# Interner Entwurf für den RWTHjupyter-Profilantrag (enthält den Issue-Text
-# für git.rwth-aachen.de/jupyter/profiles - gehört NICHT in dieses öffentliche
-# Notebook-Repo, da es u.a. Kontaktdaten/interne Planungsangaben enthält).
-profile-request-issue.md
-
-# Arbeits-Checkliste für den Profilantrag - keine öffentlichen Inhalte,
-# wird nach Abschluss gelöscht.
-TODO.md
