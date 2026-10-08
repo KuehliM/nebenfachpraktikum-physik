@@ -15,7 +15,7 @@ docker run -it --rm -p 8888:8888 nebenfachpraktikum:test
 
 ```bash
 docker build --build-arg BASE_IMAGE=quay.io/jupyter/scipy-notebook:python-3.12 \
-              -t nebenfachpraktikum:test .
+             --build-arg CONDA_ENV=base -t nebenfachpraktikum:test .
 docker run -it --rm -p 8888:8888 nebenfachpraktikum:test
 ```
 
