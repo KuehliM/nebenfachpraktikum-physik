@@ -6,3 +6,4 @@ openpyxl
 uncertainties
 sympy
 ipympl
+odrpack==0.6.1
